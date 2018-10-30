@@ -25,5 +25,5 @@ let requestsResults: multipleRequestsResults(string) = [
   Error("Error I said"),
 ];
 
-type sydent = {teachedBy: teache}
-and teacher = {teaches: list(students)};
+type student = {teachedBy: teacher}
+and teacher = {teaches: list(student)};
